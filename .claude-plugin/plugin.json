@@ -1,0 +1,22 @@
+{
+  "name": "analyze-video",
+  "description": "Analyze a YouTube reference video's structure and rhetorical techniques. Fetches subtitles via yt-dlp, then extracts macro/micro structure, hooks, pacing, hedging, persuasion patterns, retention tactics, and memorable phrases as a Markdown report.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Eruto Kondo",
+    "email": "erutobusiness@gmail.com"
+  },
+  "homepage": "https://github.com/eruto-skills/analyze-video",
+  "repository": "https://github.com/eruto-skills/analyze-video",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-skill",
+    "video",
+    "youtube",
+    "analysis",
+    "rhetoric",
+    "subtitle",
+    "yt-dlp"
+  ]
+}

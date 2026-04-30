@@ -1,0 +1,5 @@
+*.vtt
+*.txt.tmp
+yt_meta.json
+ref_*
+.DS_Store
