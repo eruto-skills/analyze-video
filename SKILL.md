@@ -1,6 +1,6 @@
 ---
 name: analyze-video
-description: "Analyze a YouTube reference video's structure and rhetorical techniques. Fetches metadata and subtitles via yt-dlp, then extracts macro/micro structure, hooks, pacing, hedging language, persuasion patterns, retention tactics, and memorable phrases as a footnoted Markdown report. Trigger on: \"analyze this video\", \"what makes this video work\", \"extract techniques from\", \"study this YouTube video\", \"this video is great\", \"I want to copy this style\", \"break down this talk\". Compare with another reference (URL or local narration text) via --compare. This skill is for studying *external* videos to learn from — not for reviewing your own content (use a content-review skill for that)."
+description: "Analyze a YouTube reference video's rhetoric and structure (hooks, pacing, hedging, credibility, retention, memorable phrases) and produce a Markdown report. Trigger on: \"analyze this video\", \"what makes this work\", \"extract techniques from\", \"study this YouTube video\". Compare two references via --compare. For studying *external* videos — for reviewing your *own* content, use review-content."
 user-invocable: true
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash, Task
 argument-hint: <youtube-url> [--compare <ref>] [--quick]
