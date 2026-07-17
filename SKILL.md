@@ -37,7 +37,7 @@ Studies a YouTube video's structure and rhetorical techniques and produces a reu
    - Local text path: read the narration text directly and compare on the available axes
 9. **Confirm placement** — follow `File Placement` rules in Project Integration; otherwise ask the user
 10. **Write report** with the structure below
-11. **Lint** if Project Integration defines a lint command
+11. **Lint**: run the lint command from the project CLAUDE.md's 「品質ゲート」 section (or Project Integration). If neither declares one, note 「散文 lint: 未設定」 instead of skipping silently
 12. **QA check** → [qa-checklist](references/qa-checklist.md)
 13. **Cleanup** — delete intermediate files (VTT / TXT / metadata JSON)
 
